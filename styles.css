@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.alert-card {
+    border-left: 5px solid #dc3545;
+}
+
+.high-value-card {
+    border-left: 5px solid #ffc107;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.badge-fraud {
+    background-color: #dc3545;
+}
+
+.badge-valid {
+    background-color: #28a745;
+}
+
+.badge-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+#content {
+    min-height: 70vh;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.status-confirmed {
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-false_positive {
+    background-color: #6c757d;
+    color: white;
+}
+
+.list-group-item {
+    transition: all 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
